@@ -5,6 +5,7 @@
 
 ## Mini Lab
 [fibonacci.py](https://github.com/maggie3000/helloworld/blob/main/helloworld/fibonacci.py)
+
 ### Instructions:
 Demo on Web:
 1. Runtime Demo of Class in action with Web front end.
@@ -21,6 +22,7 @@ Code (route)
 Code (html/thymeleaf)
 7. Referencing "getters" in Jinja and the second in function style.
 8. Conclude with Input and Output and "the Series".  Who can make the area for the series bigger?
+
 Outcome:  Individual Mini-Lab using "Class(es) and Object(s)
 1. Use an individual section (blueprint) in your Scrum Team project for Mini Lab definition and execution.
 2. Enhance or Define a Class to manage a complex data set
