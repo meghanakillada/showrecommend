@@ -4,7 +4,7 @@
 - 
 
 ## Mini Lab
-###Instructions:
+### Instructions:
 Demo on Web:
 A. Runtime Demo of Class in action with Web front end.
 BluePrint Location (Console)
