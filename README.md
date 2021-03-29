@@ -1,9 +1,10 @@
-# helloworld
+# HELLOWORLD
 
 ## Python Basics
-- 
+[firstfile.py](https://github.com/maggie3000/helloworld/blob/main/helloworld/firstfile.py)
 
 ## Mini Lab
+[fibonacci.py](https://github.com/maggie3000/helloworld/blob/main/helloworld/fibonacci.py)
 ### Instructions:
 Demo on Web:
 A. Runtime Demo of Class in action with Web front end.
