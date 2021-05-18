@@ -13,7 +13,7 @@ response = requests.request("GET", url)
 #json output to python dictionary
 responseJsonObj = json.loads(response.text)
 
-#appending dictonary items into a list
+#appending dictionary items into a list
 showList1 = []
 for data in responseJsonObj['tv_shows']:
     showList1.append(data['name'])
@@ -32,17 +32,12 @@ class Shows:
         self._dictID = 0
         self.show_series()
 
-    #function to build a random data list
+    #function to build a random data list and dictionary
     def show_series(self):
         limit = self._series
         #starting array/list
         f = [random.sample((showList1), k=self.series)]
-        #calls "set_data"
-        self.set_data(f[0])
-
-    #function to set the list and the dictionary
-    def set_data(self, num):
-        self._list.append(num)
+        self._list.append(f[0])
         self._dict[self._dictID] = self._list.copy()
         self._dictID += 1
 
