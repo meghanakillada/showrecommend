@@ -1,0 +1,42 @@
+<head>
+    <title>Show Recommendations</title>
+    <!-- link to Bootstrap styling -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+</head>
+
+<br><br>
+
+<div class="jumbotron jumbotron-fluid">
+    <div class="container">
+        <h1 class="display-4">TV-Show Recommendations</h1>
+        <p class="lead">This program recommends a certain number of tv show recommendations based on user input.</p>
+    </div>
+</div>
+
+<br><br>
+
+<div class="jumbotron jumbotron-fluid">
+    <div class="container">
+        <form class="row g-3" id="showForm" action="/minilab" method="POST">
+            <div class="col-auto">
+                <label for="shows" class="form-control-plaintext"><strong>Enter number of show recommendations:</strong></label>
+            </div>
+            <div class="col-auto">
+                <input class="form-control" name="shows" id="shows" type="number" min="1" max="20" required>
+            </div>
+            <div class="col-auto">
+                <button type="submit" class="btn btn-outline-dark mb-3">Submit</button>
+            </div>
+
+        </form>
+
+        <br><br><br>
+
+        <div style="text-align: left">
+            <h3>{{showrecs.series}} Show Recommendations</h3>
+            <div class="col-" style="text-align: left">
+                <h3> Shows:{{showrecs.list}}</h3>
+            </div>
+        </div>
+    </div>
+</div>
