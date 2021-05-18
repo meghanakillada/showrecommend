@@ -21,6 +21,7 @@
             <div class="col-auto">
                 <label for="shows" class="form-control-plaintext"><strong>Enter number of show recommendations:</strong></label>
             </div>
+
             <div class="col-auto">
                 <input class="form-control" name="shows" id="shows" type="number" min="1" max="20" required>
             </div>
@@ -33,7 +34,7 @@
         <br><br><br>
 
         <div style="text-align: left">
-            <h3>{{showrecs.series}} Show Recommendations</h3>
+            <h3 class="display-6">{{showrecs.series}} Show Recommendations</h3>
             <div class="col-" style="text-align: left">
                 <h3> Shows:{{showrecs.list}}</h3>
             </div>
